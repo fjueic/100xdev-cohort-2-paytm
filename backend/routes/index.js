@@ -9,6 +9,6 @@ let router = express.Router();
 router.use("/signup", signup);
 router.use("/signin", signin);
 router.use("/user", user);
-router.use("/account",account)
+router.use("/account", account)
 
 module.exports = router;

@@ -46,7 +46,7 @@ router.post("/", async (req, res) => {
 			token,
 		});
 	} catch (err) {
-		console.error(err);
+		// console.error(err);
 	}
 });
 
